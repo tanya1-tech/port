@@ -350,7 +350,7 @@ a {
 .banner-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0.8rem;
+    gap: 0.1rem;
 }
 
 .gallery-item {
@@ -388,10 +388,14 @@ a {
 }
 
 .banner-item {
-    aspect-ratio: 16/4;
-    min-height: 80px;
-    padding: 6px;
+    aspect-ratio: 4 / 1;
+    min-height: auto;
+    padding: 0px;
 }
+.half {
+    width: 100%;
+}
+
 
 /* ===== IMAGE OVERLAY ===== */
 .image-overlay {
